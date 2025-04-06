@@ -1,6 +1,5 @@
 # AlwaysOn
 A lightweight web application that prevents your device screen from sleeping or dimming. Built with HTML, CSS, and JavaScript using the Wake Lock API.
-# AlwaysOn
 
 AlwaysOn is a minimal, elegant web application that prevents your device screen from sleeping or dimming as long as the tab is open. It's perfect for reading, presenting, or monitoring downloads without interruption.
 
