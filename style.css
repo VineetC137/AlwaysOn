@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #111;
+    color: #ccc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.toggle-button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+    min-width: 150px;
+}
+
+.toggle-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2);
+}
+
+.toggle-button.active {
+    background-color: #0f0;
+    color: #111;
+}
+
+.status-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.duration-text {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.browser-support {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .toggle-button {
+        font-size: 1rem;
+        padding: 0.8rem 1.6rem;
+    }
+
+    .status-text {
+        font-size: 1rem;
+    }
+}
