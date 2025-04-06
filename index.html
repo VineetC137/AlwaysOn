@@ -14,6 +14,20 @@
         <p id="statusText" class="status-text">Your screen may sleep now.</p>
         <div id="duration" class="duration-text"></div>
         <p id="browserSupport" class="browser-support"></p>
+        <!-- Add this after the header section -->
+        <div class="info-container">
+            <div id="datetime" class="datetime"></div>
+            <div id="weather" class="weather">
+                <div class="weather-icon">
+                    <svg id="weather-icon-svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- Weather icon will be updated via JavaScript -->
+                    </svg>
+                </div>
+                <span id="temperature"></span>
+                <span id="weather-description"></span>
+                <span id="location"></span>
+            </div>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
